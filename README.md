@@ -13,7 +13,7 @@ Green field or .net application migration with a SQL Server back end the followi
 * Web Application Firewall in front of Web Application to protect against the top 10 OWASP threats
 * Outbound traffic from the Web App to SQL Database and other in-network resources (including on-premise) routed to a firewall for inspection.
 ## Architecture
-![Secure PaaS](https://github.com/azuregomez/secureapp/blob/main/secureapp.png)
+![Secure PaaS](https://github.com/saffiali/secureapp/blob/main/secureapp.png)
 
 This architecture leverages the following Azure Security features:
 
@@ -49,7 +49,7 @@ This solution deploys a fully automated secure baseline Azure ARM Template + Pow
 ### Deployment Steps
 1. Clone or dowload the solution to your local machine
 ```
-git clone https://github.com/azuregomez/SecureApp.git somefolder
+git clone https://github.com/saffiali/SecureApp.git somefolder
 ```
 2. Configure azuredeploy.parameters.json
 Provide a resource group prefix.  This prefix will be used to create default names for Azure Resources.
